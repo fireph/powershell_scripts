@@ -1,7 +1,7 @@
 # powershell_scripts
 Variety of Powershell scripts I have created
 
-Add these to your profile.ps1
+Add these to your aliases.ps1
 
 ```
 Function Run-Android-Gif {pwsh -ExecutionPolicy Bypass -File (Join-Path -Path (Split-Path $PSScriptRoot -Parent) -ChildPath "android_gif.ps1") $args}
